@@ -1,10 +1,5 @@
 {
-  "installation": {
-    "version": "21.5.3",
-    "plugins": {
-      "@nx/next": "21.5.3"
-    }
-  },
+  "installation": { "version": "21.5.3", "plugins": { "@nx/next": "21.5.3" } },
   "plugins": [
     {
       "plugin": "@nx/next/plugin",
@@ -17,18 +12,8 @@
         "watchDepsTargetName": "watch-deps"
       }
     },
-    {
-      "plugin": "@nx/playwright/plugin",
-      "options": {
-        "targetName": "e2e"
-      }
-    },
-    {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    },
+    { "plugin": "@nx/playwright/plugin", "options": { "targetName": "e2e" } },
+    { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } },
     {
       "plugin": "@nx/react/router-plugin",
       "options": {
@@ -56,16 +41,8 @@
     }
   ],
   "generators": {
-    "@nx/next": {
-      "application": {
-        "style": "css",
-        "linter": "eslint"
-      }
-    },
-    "@nx/react": {
-      "library": {
-        "unitTestRunner": "vitest"
-      }
-    }
-  }
+    "@nx/next": { "application": { "style": "css", "linter": "eslint" } },
+    "@nx/react": { "library": { "unitTestRunner": "vitest" } }
+  },
+  "nxCloudId": "68d0830bba8a6064f2ab0845"
 }
