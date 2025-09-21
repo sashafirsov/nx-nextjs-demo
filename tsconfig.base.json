@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@sashafirsov/pokemon-slides": ["pokemon-slides/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
