@@ -1,5 +1,21 @@
 {
   "installation": {
-    "version": "21.5.3"
-  }
+    "version": "21.5.3",
+    "plugins": {
+      "@nx/next": "21.5.3"
+    }
+  },
+  "plugins": [
+    {
+      "plugin": "@nx/next/plugin",
+      "options": {
+        "startTargetName": "start",
+        "buildTargetName": "build",
+        "devTargetName": "dev",
+        "serveStaticTargetName": "serve-static",
+        "buildDepsTargetName": "build-deps",
+        "watchDepsTargetName": "watch-deps"
+      }
+    }
+  ]
 }

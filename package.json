@@ -1,0 +1,35 @@
+{
+  "name": "@sashafirsov/nx-nextjs-demo",
+  "version": "1.0.0",
+  "description": "nx monorepo with NextJS app demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sashafirsov/nx-nextjs-demo.git"
+  },
+  "keywords": [
+    "nx",
+    "nextjs",
+    "monorepo",
+    "lazyload",
+    "react",
+    "cdn"
+  ],
+  "author": "Sasha Firsov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sashafirsov/nx-nextjs-demo/issues"
+  },
+  "homepage": "https://github.com/sashafirsov/nx-nextjs-demo#readme",
+  "devDependencies": {
+    "@nx/next": "^21.5.3"
+  },
+  "dependencies": {
+    "next": "~15.2.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  }
+}
