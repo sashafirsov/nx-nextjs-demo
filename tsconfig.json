@@ -11,6 +11,9 @@
     },
     {
       "path": "./lib/img-gallery"
+    },
+    {
+      "path": "./lib/img"
     }
   ]
 }
