@@ -1,5 +1,6 @@
 import styles from './page.module.css';
 import { PokemonGalleryImgGallery } from '@pokemon-gallery/img-gallery';
+import PokemonGalleryImg from '@lib/img';
 
 export default function Index() {
   /*
@@ -52,6 +53,7 @@ export default function Index() {
 
           <div id="middle-content">
             <PokemonGalleryImgGallery/>
+            <PokemonGalleryImg/>
             <div id="learning-materials" className="rounded shadow">
               <h2>Learning materials</h2>
               <a

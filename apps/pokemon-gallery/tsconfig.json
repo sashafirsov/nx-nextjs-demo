@@ -48,6 +48,9 @@
   ],
   "references": [
     {
+      "path": "../../lib/img"
+    },
+    {
       "path": "../../lib/img-gallery"
     }
   ]
