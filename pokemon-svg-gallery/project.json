@@ -1,9 +1,0 @@
-{
-  "name": "pokemon-svg-gallery",
-  "$schema": "../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "pokemon-svg-gallery",
-  "projectType": "application",
-  "tags": [],
-  "// targets": "to see all targets run: nx show project pokemon-svg-gallery --web",
-  "targets": {}
-}

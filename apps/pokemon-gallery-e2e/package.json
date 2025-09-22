@@ -1,0 +1,10 @@
+{
+  "name": "@pokemon-gallery/pokemon-gallery-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@pokemon-gallery/pokemon-gallery"
+    ]
+  }
+}

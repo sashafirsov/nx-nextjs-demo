@@ -13,7 +13,7 @@ export default function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome pokemon-svg-gallery 👋
+              Welcome @pokemon-gallery/pokemon-gallery 👋
             </h1>
           </div>
 
@@ -397,7 +397,7 @@ export default function Index() {
                 </svg>
                 View project details
               </summary>
-              <pre>nx show project pokemon-svg-gallery --web</pre>
+              <pre>nx show project @pokemon-gallery/pokemon-gallery --web</pre>
             </details>
             <details>
               <summary>

@@ -1,9 +1,0 @@
-{
-  "name": "pokemon-slides",
-  "$schema": "../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "pokemon-slides/src",
-  "projectType": "library",
-  "tags": [],
-  "// targets": "to see all targets run: nx show project pokemon-slides --web",
-  "targets": {}
-}

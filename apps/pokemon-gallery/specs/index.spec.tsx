@@ -1,10 +1,10 @@
+import React from 'react';
 import { render } from '@testing-library/react';
+import Page from '../src/app/page';
 
-import PokemonSlides from './pokemon-slides';
-
-describe('PokemonSlides', () => {
+describe('Page', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<PokemonSlides />);
+    const { baseElement } = render(<Page />);
     expect(baseElement).toBeTruthy();
   });
 });
